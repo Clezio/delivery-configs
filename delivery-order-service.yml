@@ -19,7 +19,7 @@ spring:
         password: '1234'
         platform: mysql
         url: jdbc:mysql://localhost/delivery-order?verifyServerCertificate=false&useSSL=false&requireSSL=false
-        username: root
+        username: delivery
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
         generate-ddl: false
